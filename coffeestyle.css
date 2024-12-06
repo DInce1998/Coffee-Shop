@@ -1,0 +1,182 @@
+h1 {
+    font-size: 40px;
+    font-family:Arial;
+    color: saddlebrown;
+}
+h2 {
+    font-size: 30px;
+    font-family:Arial;
+    color: black;
+    text-decoration: underline;
+}
+h3 {
+    font-size: 26px;
+    font-family: Arial;
+    color: black;
+}
+body {
+    background-color: slategray;
+    font-size: 22px;
+    font-family: Arial;
+}
+.footer-item {
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    text-decoration: none;
+    background-color:burlywood;
+    color: saddlebrown;
+    padding: 5px;
+    text-decoration: underline;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.navitem {
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    text-decoration: none;
+    background-color:burlywood;
+    color: saddlebrown;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: underline;
+}
+
+.footer-item:hover {
+    background-color: saddlebrown;
+    color:burlywood
+}
+.navitem:hover {
+    color:burlywood;
+    background-color:saddlebrown;
+}
+#myfont {
+    font-weight: bolder;
+}
+.contact {
+    color: black;
+    font-size: 26px;
+    font-family: Arial;
+    padding: 10px;
+}
+.Espresso{
+    font-family: Arial;
+    font-size: 26px;
+    color: black;
+    text-align:center ;
+    text-decoration: underline;
+}
+.IcedCoffee{
+    font-family: Arial;
+    font-size: 26px;
+    color: black;
+    text-decoration: underline;
+    text-align: center;
+}
+.ColdBrew{
+    font-family: Arial;
+    font-size: 26px;
+    color: black;
+    text-decoration: underline;
+    text-align: center;
+}
+.pain_au_chocolate{
+    font-family: Arial;
+    font-size: 26px;
+    color: black;
+    text-decoration: underline;
+    text-align: center;
+}
+.Cookies{
+    font-family: Arial;
+    font-size: 26px;
+    color: black;
+    text-decoration: underline;
+    text-align: center;
+}
+.cinnamon_roll{
+    font-family: Arial;
+    font-size: 26px;
+    color: black;
+    text-decoration: underline;
+    text-align: center;
+}
+.Macarons{
+    font-family: Arial;
+    font-size: 26px;
+    color: black;
+    text-decoration: underline;
+    text-align: center;
+}
+.ItalianStyle {
+    font-family: Arial;
+    font-size: 26px;
+    color: black;
+    text-decoration: underline;
+    text-align: center;
+}
+.image_row {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.image_item{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.image_item2{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.image_item3{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.image_row2 {
+    display:flex;
+    flex-direction: row;
+}
+.image_item4{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.image_item5{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.image_item6{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.image_item7{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.image_item8{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.logo_text {
+    font-family: Arial;
+    font-size: 26px;
+    color: black;
+}
+.logo_image img{
+    transition: all 0.5s;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+.logo_image:hover img {
+    transform: scale(1) rotate(360deg);
+}
