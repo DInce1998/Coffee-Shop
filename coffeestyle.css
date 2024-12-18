@@ -184,9 +184,15 @@ nav {
     display: flex;
     flex-direction: column;
     width: 30%;
+    font-family: Arial;
+    font-size: 26px;
+    color: black;
 }
 .coffee_bar_info{
     display: flex;
     flex-direction: column;
     width: 30%;
+    font-family: Arial;
+    font-size: 26px;
+    color: black;
 }
